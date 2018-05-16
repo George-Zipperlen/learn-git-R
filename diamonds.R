@@ -1,3 +1,4 @@
+# ggplot demo
 library(tidyverse)
 
 ggplot(diamonds, aes(carat, price)) + 
@@ -5,3 +6,4 @@ ggplot(diamonds, aes(carat, price)) +
 ggsave("diamonds.pdf")
 
 write_csv(diamonds, "diamonds.csv")
+
